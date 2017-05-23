@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:foreground="?android:attr/selectableItemBackground"
+    android:minHeight="?android:attr/listPreferredItemHeight"
+    card_view:cardBackgroundColor="@android:color/white"
+    card_view:cardUseCompatPadding="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:paddingBottom="2dp"
+        android:paddingLeft="8dp"
+        android:paddingRight="4dp"
+        android:paddingTop="8dp">
+
+        <ImageView android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:id="@+id/image_view"/>
+
+        <LinearLayout
+            android:id="@+id/listitem_name"
+            android:layout_width="0dp"
+            android:layout_height="64dp"
+            android:layout_weight="5"
+            android:layout_marginLeft="15dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/task_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top"
+                android:textSize="16sp"
+                tools:text="Wish List" />
+
+            <TextView
+                android:id="@+id/task_details"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top"
+                android:textSize="16sp"
+                tools:text="Wish List" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

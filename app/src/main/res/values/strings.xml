@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Dagger2_DemoApp</string>
+
+    <string name="pref_remove_tasks_after_user_logout_key">pref_remove_tasks_after_user_logout_key</string>
+    <string name="pref_remove_tasks_after_user_logout_title">Select whether all tasks will be removed after user logout</string>
+    <string name="pref_remove_tasks_after_user_logout_summary">Select whether all tasks will be removed after user logout</string>
+    <string name="pref_remove_tasks_after_user_logout_default_value">0</string>
+    <string name="pref_remove_tasks_after_user_logout_dialog_title">Choose a value</string>
+
+    <string name="pref_number_of_retries_for_email_send_action_key">pref_number_of_retries_for_email_send_action_key</string>
+    <string name="pref_number_of_retries_for_email_send_action_title">Select number of retries to send an email in case of failure</string>
+    <string name="pref_number_of_retries_for_email_send_action_summary">Select number of retries to send an email in case of failure</string>
+    <string name="pref_number_of_retries_for_email_send_action_default_value">1</string>
+    <string name="pref_number_of_retries_for_email_send_action_dialog_title">Choose a value</string>
+
+</resources>

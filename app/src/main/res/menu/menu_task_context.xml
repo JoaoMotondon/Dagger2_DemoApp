@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="Remove Task" android:id="@+id/menu_task_remove_action"></item>
+    <item android:title="Email Task" android:id="@+id/menu_task_email_action"></item>
+    <item android:title="Send Tweet" android:id="@+id/menu_task_send_tweet_action"></item>
+</menu>
