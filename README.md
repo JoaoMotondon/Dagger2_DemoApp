@@ -5,7 +5,7 @@ Basically it shows how to create a component graph with multiple component depen
 
 Then, we demonstrate how to use lazy injection by simulating a heavy service initialization (a fake email provider) and finally show how to properly reconstruct a graph (that contains dependencies) in case of app is killed by the system and later restored.
 
-Please, refer to [this article](http://androidahead.com/2017/05/23/dagger2-sharing-some-ideas/) for detailed information.
+Please, refer to [this article](http://androidahead.com/2017/05/24/dagger2-sharing-some-ideas/) for detailed information.
 
 ![Demo](https://cloud.githubusercontent.com/assets/4574670/26336806/f3974396-3f4a-11e7-89cc-b40a63200d07.gif)
 
